@@ -1,0 +1,30 @@
+<head>
+  <title>Login</title>
+  <!-- <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet"> -->
+</head>
+
+<body class="align">
+  <div class="grid">
+    <form method="POST" class="form login">
+
+      <div class="form__field">
+        <label for="login__username">
+          <span class="hidden">Username</span>
+        </label>
+        <input id="login__username" type="text" name="username" class="form__input" placeholder="Username" required>
+      </div>
+
+      <div class="form__field">
+        <label for="login__password">
+          <span class="hidden">Password</span>
+        </label>
+        <input id="login__password" type="password" name="password" class="form__input" placeholder="Password" required>
+      </div>
+
+      <div class="form__field" routerLink="sideMenu">
+        <input type="submit" value="Sign In">
+      </div>
+    </form>
+    <p class="text--center">Forget Password </p>
+  </div>
+</body>
